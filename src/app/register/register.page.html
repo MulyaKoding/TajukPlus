@@ -1,0 +1,123 @@
+<ion-header class="ion-no-harder">
+  <ion-toolbar class="header-section">
+    <ion-buttons slot="start">
+      <ion-button color="promary" routerLink="/login">
+      <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="start">
+        <ion-button  class="navigation">Kelengkpan Data</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="content-section">
+    <img src="assets/icon/logo.png"/>
+
+    <form>
+        <ion-item lines="none" class="label-section">
+            <ion-label>Informasi Data</ion-label>
+        </ion-item>
+        <div class="line"></div>
+        <ion-input type="text"name="fullname" placeholder="Nama Lengkap"></ion-input>
+        <ion-input type="text" name="username" placeholder="Username"></ion-input>
+        <ion-input type="email" name="email" placeholder="Email"></ion-input>
+        <ion-input type="phone" name="phone" placeholder="Phone Number"></ion-input>
+        <ion-input typr="text" name="nik" placeholder="No KTP"></ion-input>
+        <ion-item lines="none" class="label-section">
+            <ion-label>Informasi Alamat</ion-label>
+        </ion-item>
+        <div class="line"></div>
+        <ion-select placeholder="Provinsi" name="provinsi">
+          <ion-select-option value="np">Nama Provinsi</ion-select-option>
+          <ion-select-option value="Aceh">Aceh</ion-select-option>
+          <ion-select-option value="SumateraUtara">Sumatera Utara</ion-select-option>
+          <ion-select-option value="SumateraBarat">Sumatera Barat</ion-select-option>
+          <ion-select-option value="Riau">Riau</ion-select-option>
+          <ion-select-option value="KepulauanRiau">Kepulauan Riau</ion-select-option>
+          <ion-select-option value="Jambi">Jambi</ion-select-option>
+          <ion-select-option value="SumateraSelatan">Sumatera Selatan</ion-select-option>
+          <ion-select-option value="KepulauanBangkaBelitung">Kepualauan Bangka Belitung</ion-select-option>
+          <ion-select-option value="Bengkulu">Bengkulu</ion-select-option>
+          <ion-select-option value="Lampung">Lampung</ion-select-option>
+          <ion-select-option value="DKIJakarta">DKI Jakarta</ion-select-option>
+          <ion-select-option value="Banten">Banten</ion-select-option>
+          <ion-select-option value="JawaBarat">Jawa Barat</ion-select-option>
+          <ion-select-option value="JawaTengah">Jawa Tengah</ion-select-option>
+          <ion-select-option value="DIYogyakarta">DI Yogyakarta</ion-select-option>
+          <ion-select-option value="JawaTimur">Jawa Timur</ion-select-option>
+          <ion-select-option value="Bali">Bali</ion-select-option>
+          <ion-select-option value="NUsaTenggaraBarat">Musa Tenggara Barat</ion-select-option>
+          <ion-select-option value="NusaTenggaraTimur">Nusa Tenggara Timur</ion-select-option>
+          <ion-select-option value="KalimantanBarat">Kalimantan Barat</ion-select-option>
+          <ion-select-option value="KalimantanTengah">Kalimantan Tengah</ion-select-option>
+          <ion-select-option value="KalimantanSelatan">Kalimantan Selatan</ion-select-option>
+          <ion-select-option value="KalimantanTimur">Kalimantan Timur</ion-select-option>
+          <ion-select-option value="KalimantanUtara">Kalimantan Utara</ion-select-option>
+          <ion-select-option value="SulawesiUtara">Sulawesi Utara</ion-select-option>
+          <ion-select-option value="Gorontalo">Gorontalo</ion-select-option>
+          <ion-select-option value="SulawesiTengah">Sulawesi Tengah</ion-select-option>
+          <ion-select-option value="SulawesiBarat">Sulawesi Barat</ion-select-option>
+          <ion-select-option value="SulawesiSelatan">Sulawesi Selatan</ion-select-option>
+          <ion-select-option value="SulawesiTenggara">Sulawesi Tenggara</ion-select-option>
+          <ion-select-option value="Maluku">Maluku</ion-select-option>
+          <ion-select-option value="MalukuUtara">Maluku Utara</ion-select-option>
+          <ion-select-option value="PapuaBarat">Papua Barat</ion-select-option>
+          <ion-select-option value="Papua">Papua</ion-select-option>      
+        </ion-select>
+        <ion-select placeholder="Kota" name="kota">
+            <ion-select-option value="nko">Banda Aceh</ion-select-option>
+            <ion-select-option value="Medan">Medan</ion-select-option>   
+            <ion-select-option value="Padang">Padang</ion-select-option>   
+            <ion-select-option value="PekanBaru">PekanBaru</ion-select-option>
+            <ion-select-option value="TanjungPinang">TanjungPinang</ion-select-option>   
+            <ion-select-option value="Jambi">Jambi</ion-select-option>   
+            <ion-select-option value="Palembang">Palembang</ion-select-option>  
+            <ion-select-option value="PangkalPinang">PangkalPinang</ion-select-option>   
+            <ion-select-option value="Bengkulu">Bengkulu</ion-select-option>   
+            <ion-select-option value="BandarLampung">Bandar Lampung</ion-select-option>  
+            <ion-select-option value="Jakarta">Jakarta</ion-select-option>   
+            <ion-select-option value="Serang">Serang</ion-select-option>   
+            <ion-select-option value="Bandung">Bandung</ion-select-option>  
+            <ion-select-option value="Semarang">Semarang</ion-select-option>   
+            <ion-select-option value="Yogyakarta">Yogyakarta</ion-select-option>   
+            <ion-select-option value="Surabaya">Surabaya</ion-select-option>  
+            <ion-select-option value="Denpasar">Denpasar</ion-select-option>   
+            <ion-select-option value="Mataram">Mataram</ion-select-option>   
+            <ion-select-option value="Kupang">Kupang</ion-select-option>  
+            <ion-select-option value="Pontianak">Pontianak</ion-select-option>   
+            <ion-select-option value="Palangkaraya">Palangkaraya</ion-select-option>   
+            <ion-select-option value="Banjarmasin">Banjarmasin</ion-select-option>  
+            <ion-select-option value="Samarinda">Samarinda</ion-select-option>   
+            <ion-select-option value="TanjungSelor">Tanjung Selor</ion-select-option>   
+            <ion-select-option value="Manado">Manado</ion-select-option>  
+            <ion-select-option value="Gorontalo">Gorontalo</ion-select-option>   
+            <ion-select-option value="Palu">Palu</ion-select-option>   
+            <ion-select-option value="Mamuju">Mamuju</ion-select-option>  
+            <ion-select-option value="Makassar">Makassar</ion-select-option>   
+            <ion-select-option value="KeNdari">Kendari</ion-select-option>   
+            <ion-select-option value="Ambon">Ambon</ion-select-option>  
+            <ion-select-option value="Sofifi">Sofifi</ion-select-option>
+            <ion-select-option value="Manokwari">Manokwari</ion-select-option>   
+            <ion-select-option value="Jayapura">Jayapura</ion-select-option>         
+        </ion-select>
+        <ion-select placeholder="Kecamatan" name="kecamatan">
+            <ion-select-option value="nke">Nama Kecamatan</ion-select-option>
+        </ion-select>
+        <ion-input type="text" name="address" placeholder="Alamat Lengkap"></ion-input>
+        <ion-item lines="none" class="label-section">
+            <ion-label>Password</ion-label>
+        </ion-item>
+        <div class="line"></div>
+        <ion-input type="password" name="password" placeholder="Password"></ion-input>
+        <ion-input type="password" name="confirmpass" placeholder="Konfirmasi Password"></ion-input>
+        <ion-item line="none">
+            <ion-label class="cb-agree">Saya telah menyetujui Syarat & Ketentuan Serta kebijakan Privasi yang berlaku</ion-label>
+            <ion-checkbox slot="start"></ion-checkbox>
+        </ion-item>
+        <ion-button class="btn-signup"expand="block"(click)="registerAction()">Daftar</ion-button>
+    </form>
+    
+  </div>
+</ion-content>

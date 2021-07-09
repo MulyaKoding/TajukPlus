@@ -1,0 +1,7 @@
+{
+  "name": "TajukPlus",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
