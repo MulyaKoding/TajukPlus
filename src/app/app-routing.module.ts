@@ -79,6 +79,22 @@ const routes: Routes = [
     path: 'help',
     loadChildren: () => import('./help/help.module').then( m => m.HelpPageModule)
   },
+  {
+    path: 'config',
+    loadChildren: () => import('./config/config.module').then( m => m.ConfigPageModule)
+  },
+  {
+    path: 'resolvers',
+    loadChildren: () => import('./resolvers/resolvers.module').then( m => m.ResolversPageModule)
+  },
+  {
+    path: 'services',
+    loadChildren: () => import('./services/services.module').then( m => m.ServicesPageModule)
+  },
+  {
+    path: 'providers',
+    loadChildren: () => import('./providers/providers.module').then( m => m.ProvidersPageModule)
+  },
 ];
 
 @NgModule({
