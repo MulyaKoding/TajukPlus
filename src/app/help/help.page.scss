@@ -1,0 +1,75 @@
+ion-icon {
+    color: white;
+  }
+  ion-content {
+    z-index: 10;
+    position: absolute;
+    --background: rgba(1, 1, 1, 0);
+  }  
+  .header-section {
+    --background: linear-gradient(to bottom left, #3DBDCF, #55BF30);
+    padding-bottom: 70%;
+    z-index: 1;
+  }
+ion-content {
+    z-index: 10;
+    position: absolute;
+    --background: rgba(1,1,1,0);
+}
+.navigation {
+    --color: white;
+    text-transform: capitalize;
+}
+.content-section {
+    margin-top: 30%;
+    background-color: white;
+    width: 100%;
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 50px 50px 0px 0px;
+  }
+  .label{
+    font-size: 10px;
+    text-transform: capitalize;
+
+  }
+
+  .data-description{
+    font-size: 13px ;
+  }
+
+  .searchbar{
+      padding-top: 20%;
+        color: black;
+  }
+
+  .yang-ditanyakan-title{
+    font-size: 18git px;
+    font-weight: 600;
+  }
+  
+  .img-data{
+      float: left;
+      padding-top: 1.5%;
+  }
+
+  .name.user{
+      float: right;
+  }
+
+  .call.user{
+      float: right;
+  }
+  .facebook.user{
+      float: right;
+  }
+  
+  .data-user{
+       font-size: smaller;
+  }
+
+  .img-data-facebook{
+      padding-left: 0pt;
+      float: left;
+  }
