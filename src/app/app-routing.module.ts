@@ -95,6 +95,18 @@ const routes: Routes = [
     path: 'providers',
     loadChildren: () => import('./providers/providers.module').then( m => m.ProvidersPageModule)
   },
+  {
+    path: 'pencarian',
+    loadChildren: () => import('./pencarian/pencarian.module').then( m => m.PencarianPageModule)
+  },
+  {
+    path: 'notification',
+    loadChildren: () => import('./notification/notification.module').then( m => m.NotificationPageModule)
+  },
+  {
+    path: 'ganti-password',
+    loadChildren: () => import('./ganti-password/ganti-password.module').then( m => m.GantiPasswordPageModule)
+  },
 ];
 
 @NgModule({

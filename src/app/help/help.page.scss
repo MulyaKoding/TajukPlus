@@ -1,78 +1,95 @@
 ion-icon {
-    color: white;
-  }
-  ion-content {
-    z-index: 10;
-    position: absolute;
-    --background: rgba(1, 1, 1, 0);
-  }  
-  .header-section {
-    --background: linear-gradient(to bottom left, #3DBDCF, #55BF30);
-    padding-bottom: 70%;
-    z-index: 1;
-  }
+  color: white;
+}
 ion-content {
-    z-index: 10;
-    position: absolute;
-    --background: rgba(1,1,1,0);
+  z-index: 10;
+  position: absolute;
+  --background: rgba(1, 1, 1, 0);
+}  
+.header-section {
+  --background: linear-gradient(to bottom left, #3DBDCF, #55BF30);
+  padding-bottom: 70%;
+  z-index: 1;
+}
+ion-content {
+  z-index: 10;
+  position: absolute;
+  --background: rgba(1,1,1,0);
 }
 .navigation {
-    --color: white;
-    text-transform: capitalize;
+  --color: white;
+  text-transform: capitalize;
 }
 .content-section {
-    margin-top: 30%;
-    background-color: white;
-    width: 100%;
-    padding-top: 25px;
-    padding-right: 15px;
-    padding-left: 15px;
-    border-radius: 50px 50px 0px 0px;
-  }
-  .label{
-    font-size: 10px;
-    text-transform: capitalize;
+  margin-top: 30%;
+  background-color: white;
+  width: 100%;
+  padding-top: 25px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 50px 50px 0px 0px;
+}
+.label{
+  font-size: 10px;
+  text-transform: capitalize;
 
-  }
+}
 
-  .data-description{
-    font-size: 13px ;
-  }
+.data-description{
+  font-size: 13px ;
+}
 
-  .searchbar{
-      padding-top: 40%;
+.searchbar{
+    width: 80%;
+    height: 40%;
+    padding-top: 20%;
       color: black;
-      width: 80%;
-      height: 40%;
+}
 
-  }
+.yang-ditanyakan-title{
+  font-size: 18git px;
+  font-weight: 600; 
+}
 
-  .yang-ditanyakan-title{
-    font-size: 18git px;
-    font-weight: 600;
-  }
-  
-  .img-data{
-      float: left;
-      padding-top: 1.5%;
-  }
+.img-data{
+    float: left;
+    padding-top: 1.5%;
+    
+}
 
-  .name.user{
-      float: right;
-  }
+.img-data1{
+  float: left;
+  padding-left: 1%;
+  margin-left: -2%;
+}
 
-  .call.user{
-      float: right;
-  }
-  .facebook.user{
-      float: right;
-  }
-  
-  .data-user{
-       font-size: smaller;
-  }
+.button-right{
+  padding-right: 420px;
+  width: 150%;
+  height: 170%;
+}
 
-  .img-data-facebook{
-      padding-left: 0pt;
-      float: left;
-  }
+.call.user1{
+  float: right;
+}
+
+.name.user{
+    float: right;
+}
+
+.call.user{
+    float: right;
+}
+.facebook.user{
+    float: right;
+}
+
+.data-user{
+     font-size: smaller;
+}
+
+.img-data-facebook{
+    padding-left: 0pt;
+    float: left;
+}
+

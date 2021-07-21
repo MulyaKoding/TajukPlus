@@ -2,6 +2,8 @@ ion-header {
   z-index: 1;
 }
 
+
+
 .header-section{
   --background: linear-gradient(to bottom left, #3DBDCF, #55BF30);
   z-index: 1;
@@ -10,6 +12,10 @@ ion-header {
   border-radius: 0px 0px 75px 75px;
 }
 
+ion-icon {
+  width: 80%;
+  height: 95%;
+}
 
 ion-content {
   position: absolute;
@@ -19,9 +25,9 @@ ion-content {
 
 .data-img-bckgrnd{
   margin-top: 60px;
-  height: 125px;
-  width: 320px;
-  border-radius: 20px 20px 20px 20px;
+  height: 155px;
+  width: 350px;
+  border-radius: 20px 20px 20px 20px; 
 }
 
 .icon-wrapper{
@@ -29,7 +35,7 @@ ion-content {
   margin-bottom: 20px;
 }
 
-
+  
 
 .berita-terbaru-title{
   margin-left: 7%;
@@ -43,10 +49,8 @@ ion-content {
   margin-left: 20px
 }
 
-.tag-btn1{
-  
-  margin-left: 20px
-}
+
+
 
   .card-view {
   margin-left: 14px;

@@ -9,7 +9,7 @@
      <ion-grid>
         <ion-row>
               <ion-col class="img-user">
-                  <img src="assets/icon/profile.png"/>
+                  <img src="assets/icon/Profil.png"/>
               </ion-col>
               <ion-col class="data-user">
                 <ion-row>
@@ -73,21 +73,67 @@
     </div>
    </ion-grid>
 
+    <ion-label class="sedang-berlangsung-tittle">
+      Sedang Berlangsung
+    <div class="sedang-berlangsung-border"></div>
+    </ion-label>
+
+    <div class="sedang-berlangsung-wrapper">
+      <ion-card class="sedang-berlangsung-data">
+        <ion-card-content>
+          <p class= "sedang-berlangsung-title">Lorem Ipsum is simply</p>
+          <p class="sedang-berlangsung-description">Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+          
+        </ion-card-content>
+        <div class="circle-progress" align="center" style=" min-height: 19px; min-width: 19px; margin-top:0%;">
+          <circle-progress [percent]="70"  [space]="-10" [radius]="100" 
+             [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true"
+            [animationDuration]="1000"></circle-progress>
+        </div>
+      </ion-card>
+      <ion-card class="sedang-berlangsung-data">
+        <ion-card-content>
+          <p class="sedang-berlangsung-title">Lorem Ipsum is simply</p>
+          <p class="sedang-berlangsung-description">Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </ion-card-content>
+        <div class="circle-wrapper" align="center" style=" min-height: 19px; min-width: 19px; margin-top:0%;">
+          <circle-progress [percent]="70"  [space]="-10" [radius]="100"  [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true"
+            [animationDuration]="1000"></circle-progress>
+        </div>
+      </ion-card>
+
+      <ion-card class="sedang-berlangsung-data">
+        <ion-card-content>
+          <p class="sedang-berlangsung-title">Lorem Ipsum is simply</p>
+          <p class="sedang-berlangsung-description">Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </ion-card-content>
+        <div class="circle-wrapper" align="center" style=" min-height: 19px; min-width: 19px; margin-top:0%;">
+          <circle-progress [percent]="70"  [space]="-10" [radius]="100"  [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true"
+            [animationDuration]="1000"></circle-progress>
+        </div>
+      </ion-card>
+
+   
+
+     
+    </div>
+ 
     <ion-label class="berita-terbaru-title">
-      Berita Tebraru
+      Berita Terbaru
       <div class="berita-terbaru-border"></div>
     </ion-label>
 
+
     <ion-segment scrollable class="tag-wrapper">
-      <ion-button  outline color="tertiary" tab="1" class="tag-btn">lorem</ion-button>
-      <ion-button outline color="tertiary" tab="2" class="tag-btn">ipsum</ion-button>
-      <ion-button outline color="tertiary" tab="3" class="tag-btn">#simply</ion-button>
-      <ion-button outline color="tertiary" tab="4" class="tag-btn">lorem</ion-button>
-      <ion-button outline color="tertiary" tab="5" class="tag-btn">ipsum</ion-button>
-      <ion-button outline color="tertiary" tab="6" class="tag-btn">#simply</ion-button>
-      <ion-button outline color="tertiary" tab="7" class="tag-btn">lorem</ion-button>
-      <ion-button outline color="tertiary" tab="8" class="tag-btn">ipsum</ion-button>
-      <ion-button outline color="tertiary" tab="9" class="tag-btn">#simply</ion-button>
+      <ion-button  tab="1" class="tag-btn">lorem</ion-button>
+      <ion-button  tab="2" class="tag-btn">ipsum</ion-button>
+      <ion-button  tab="3" class="tag-btn">#simply</ion-button>
+      <ion-button  tab="4" class="tag-btn">lorem</ion-button>
+      <ion-button  tab="5" class="tag-btn">ipsum</ion-button>
+      <ion-button  tab="6" class="tag-btn">#simply</ion-button>
+      <ion-button  tab="7" class="tag-btn">lorem</ion-button>
+      <ion-button  tab="8" class="tag-btn">ipsum</ion-button>
+      <ion-button  tab="9" class="tag-btn">#simply</ion-button>
     </ion-segment>
 
     <ion-card class="data-card">

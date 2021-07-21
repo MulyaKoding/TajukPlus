@@ -6,7 +6,7 @@ ion-header {
   --background: linear-gradient(to bottom left, #3DBDCF, #55BF30);
   z-index: 1;
   color: white;
-  text-align: center;
+  text-align: center; 
   border-radius: 0px 0px 100px 100px;
 }
 
@@ -38,7 +38,7 @@ ion-row{
 }
 
 img{
-  margin: 5px 5px 5px 0px;
+  margin: 5px 5px 5px 0px;  
   border-radius: 50px;
   height: auto;
   width: auto;
@@ -214,6 +214,7 @@ img{
 
 .data-card > ion-card-content {
   padding: 10px 10px 10px 0;
+  width: 80%;
 }
 
 .data-img-wrapper{

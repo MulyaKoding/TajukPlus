@@ -1,17 +1,17 @@
 <ion-header class="ion-no-border">
   <ion-toolbar class="header-section">
-    <ion-buttons (click)="btnClicked()" href="/home"  slot="start">
+    <ion-buttons  slot="start">
       <ion-button color="primary">
-        <ion-icon (click)="goBack()" routerLink="/home"slot="icon-only" name="arrow-back"></ion-icon>
+        <ion-icon slot="icon-only" name="chevron-back-outline"></ion-icon>
       </ion-button>
     </ion-buttons>
     <ion-buttons slot="start">
-      <ion-button (click)="btnClicked()" href="/home" class="navigation" routerLink="/">Login</ion-button>
+      <ion-button class="navigation" href="/home">Login</ion-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding fixed >
+<ion-content padding fixed>
   <div class="content-section">
   <img src="assets/icon/logo.png" />
   <form>
@@ -19,7 +19,7 @@
     <ion-input type="password" placeholder="Password"></ion-input>
     <ion-anchor (click)="btnClick()" routerLink="/lupa-password">Lupa Password ?</ion-anchor>
     <ion-button  class="btn-signup" (click)="btnClicked()" href="/register"> Daftar</ion-button>
-    <ion-button class="btn-login">Masuk</ion-button>
+    <ion-button class="btn-login" (click)="btnClicks()" href="/home-guest">Masuk</ion-button>
   </form>
 </div>
 </ion-content>
