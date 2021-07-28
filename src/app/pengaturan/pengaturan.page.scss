@@ -12,5 +12,10 @@ ion-icon {
 }
 
 ion-toggle{
-  color: #4db6ac;
+  
+  --handle-background: grey;
+  --handle-background-checked: #4db6ac;
+  --handle-box-shadow: 94px 94px 134px 134px #4db6ac;
+  
 }
+

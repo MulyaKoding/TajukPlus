@@ -25,7 +25,6 @@ ion-icon {
   padding-top: 20px;
   padding-right: 15px;
   padding-left: 15px;
-  border-radius: 50px 50px 0px 0px;
 }
 
 .navigation {
@@ -80,28 +79,28 @@ ion-select {
 }
 .informasi-data-border{
   margin-top: 2px;
-  margin-left: 7%;
-  background-color: #3DBDCF;
+  margin-left: 2%;
+  background-image: linear-gradient(#3DBDCF, #55BF30);
   height: 3px;
-  width: 8%;
+  width: 14%;
 }
 
 .informasi-data-title {
-  margin-left: 7%;
+  margin-left: 2%;
   font-size: 15px;
   font-weight: 700;
 }
 
 .Ganti-Password-border{
   margin-top: 2px;
-  margin-left: 7%;
-  background-color: #3DBDCF;
+  margin-left: 2%;
+  background-image: linear-gradient(#3DBDCF, #55BF30);
   height: 3px;
-  width: 8%;
+  width: 14%;
 }
 
 .Ganti-Password-title{
-  margin-left: 7%;
+  margin-left: 2%;
   font-size: 15px;
   font-weight: 700;
 }
@@ -112,6 +111,7 @@ ion-select {
   margin-bottom: 30px;
   width: 93%;
   margin-left: 3%;
+  --border-radius: 45px 45px 45px 45px;
 }
 
 .btn-ubh-profil{
@@ -120,6 +120,7 @@ ion-select {
   margin-bottom: 30px;
   width: 93%;
   margin-left: 3%;
+  --border-radius: 45px 45px 45px 45px;
 }
 
 ion-select{
