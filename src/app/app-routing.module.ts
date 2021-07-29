@@ -4,11 +4,11 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./pengaturan/pengaturan.module').then( m => m.PengaturanPageModule)
+    loadChildren: () => import('./help/help.module').then( m => m.HelpPageModule)
   },
   {
     path: '',
-    redirectTo: 'pengaturan`',
+    redirectTo: 'help`',
     pathMatch: 'full'
   },
   {
@@ -106,6 +106,10 @@ const routes: Routes = [
   {
     path: 'ganti-password',
     loadChildren: () => import('./ganti-password/ganti-password.module').then( m => m.GantiPasswordPageModule)
+  },
+  {
+    path: 'ubah-rekening',
+    loadChildren: () => import('./ubah-rekening/ubah-rekening.module').then( m => m.UbahRekeningPageModule)
   },
 ];
 
