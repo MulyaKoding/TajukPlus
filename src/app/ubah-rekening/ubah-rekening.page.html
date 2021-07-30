@@ -20,10 +20,11 @@
     <h4 class="jenis_bank">BCA</h4>
     <p class="no_rekening">123456789123</p> 
     <p class="nama_pemilik">johndoe</p> 
-    
+   <br><br>
      <form>
             <ion-label class="informasi-data-title">Data Bank</ion-label>
             <div class="informasi-data-border"></div>
+            <br>
           <ion-input type="text" name="namapemilikbank" placeholder="Nama Pemilik Bank"></ion-input>
           <ion-input type="text" name="rekeningbank" placeholder="No Rekening Bank"></ion-input>
           <ion-select placeholder="Nama Bank" interface="popover">
@@ -33,13 +34,16 @@
             <ion-select-option value="genesis">BTN</ion-select-option>
             <ion-select-option value="saturn"> BRI</ion-select-option>
             <ion-select-option value="snes">Bukopin</ion-select-option>
+            <br><br>
           </ion-select>
+          <br><br>
           <ion-select placeholder="Pilih Kota" name="provinsi">
             <ion-select-option value="nko">Nama Kota</ion-select-option>
         </ion-select>
         <ion-select placeholder="Pilih Kecamatan" name="provinsi">
           <ion-select-option value="nke">Nama Kecamatan</ion-select-option>
       </ion-select>
+      <br><br>
       <ion-button class="btn-ubh-profil" expand="block" (click)="registerAction()">Ubah Profil</ion-button>
      </form>
   </div>
