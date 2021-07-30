@@ -1,3 +1,4 @@
+<ion-header>
 <ion-toolbar>
   <ion-buttons slot="start">
     <ion-button color="primary">
@@ -8,12 +9,16 @@
     <ion-button class="navigation" routerLink="/">Pengaturan</ion-button>
   </ion-buttons>
 </ion-toolbar>
+</ion-header>
 
 <ion-content fullscreen>
   <ion-list>
-    <p>Notifikasi</p>
+    <br> 
+    <ion-label class="notifikasi-terbaru-title">Notifikasi</ion-label>
+    <div class="notifikasi-border"></div>
     <ion-item>
-      <ion-label>Notifikasi Berita Terbaru</ion-label>
+      <ion-label class="notifikasi-title">Notifikasi Berita Terbaru</ion-label>
+     
       <ion-toggle class="tag.btn" slot="end" name="Btu" color="white" checked></ion-toggle>
     </ion-item>
 
@@ -36,7 +41,9 @@
   </ion-list> 
 
   <ion-list>
-    <p>Umum</p>
+    <br><br>
+    <ion-label class="umum-title">Umum</ion-label>
+    <div class="umum-border"></div>
     <ion-item>
       <ion-label>Bahasa</ion-label>
       <ion-select value="indonesia">
