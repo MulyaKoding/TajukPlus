@@ -1,9 +1,46 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>ubahRekening</ion-title>
+<ion-header class="ion-no-header">
+  <ion-toolbar class="header-section">
+    <ion-buttons slot="start">
+      <ion-button color="primary">
+        <ion-icon slot="icon-only" name="chevron-back-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="start">
+      <ion-button class="navigation" href="/">Ubah Rekening</ion-button>
+    </ion-buttons>
   </ion-toolbar>
-</ion-header>
+</ion-header> 
 
-<ion-content>
 
+<ion-content padding fixed>
+  <div class="content-section">
+    
+    <p class="nama_bank">Bank Anda</p> 
+    <tr></tr>
+    <h4 class="jenis_bank">BCA</h4>
+    <p class="no_rekening">123456789123</p> 
+    <p class="nama_pemilik">johndoe</p> 
+    
+     <form>
+            <ion-label class="informasi-data-title">Data Bank</ion-label>
+            <div class="informasi-data-border"></div>
+          <ion-input type="text" name="namapemilikbank" placeholder="Nama Pemilik Bank"></ion-input>
+          <ion-input type="text" name="rekeningbank" placeholder="No Rekening Bank"></ion-input>
+          <ion-select placeholder="Nama Bank" interface="popover">
+            <ion-select-option value="nes">NES</ion-select-option>
+            <ion-select-option value="n64">Nintendo64</ion-select-option>
+            <ion-select-option value="ps">PlayStation</ion-select-option>
+            <ion-select-option value="genesis">Sega Genesis</ion-select-option>
+            <ion-select-option value="saturn">Sega Saturn</ion-select-option>
+            <ion-select-option value="snes">SNES</ion-select-option>
+          </ion-select>
+          <ion-select placeholder="Pilih Kota" name="provinsi">
+            <ion-select-option value="nko">Nama Kota</ion-select-option>
+        </ion-select>
+        <ion-select placeholder="Pilih Kecamatan" name="provinsi">
+          <ion-select-option value="nke">Nama Kecamatan</ion-select-option>
+      </ion-select>
+      <ion-button class="btn-ubh-profil" expand="block" (click)="registerAction()">Ubah Profil</ion-button>
+     </form>
+  </div>
 </ion-content>
