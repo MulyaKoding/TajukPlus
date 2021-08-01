@@ -9,16 +9,34 @@
       <ion-button class="navigation" href="/">Ubah Rekening</ion-button>
     </ion-buttons>
   </ion-toolbar>
-</ion-header> 
+</ion-header>
 
 <ion-content>
   <div class="content-section">
-    <p class="nama_bank">Bank Anda</p> 
-    <tr></tr>
-    <h4 class="jenis_bank">BCA</h4>
-    <p class="no_rekening">123456789123</p> 
-    <p class="nama_pemilik">johndoe</p> 
-   <br><br>
+  <ion-card class="profil-card">
+    <ion-grid>
+      <ion-row>
+        <ion-col class="bank-user">
+          <ion-row>
+            <ion-label class="bank-anda">Bank Anda</ion-label>
+          </ion-row>
+          <br>
+          <ion-row>
+            <ion-label class="bank-name">BCA</ion-label>
+          </ion-row>
+          <ion-row>
+            <ion-label class="rekening-bank">12345678910</ion-label>
+          </ion-row>
+          <ion-row>
+          <ion-label class="name-user">John Doe</ion-label>
+        </ion-row>
+        </ion-col>
+        <ion-col class="image">
+          <img src="assets/icon/ubahrekening/money.JPG"/>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
      <form>
             <ion-label class="informasi-data-title">Data Bank</ion-label>
             <div class="informasi-data-border"></div>
