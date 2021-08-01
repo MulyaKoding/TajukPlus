@@ -7,7 +7,6 @@ ion-icon{
   z-index: 1;
 }
 
-
 ion-content{
   z-index: 10;
   position:absolute ;
@@ -19,7 +18,7 @@ ion-icon {
 }
 
 .content-section {
-  margin-top:  8%;
+  margin-top: 12%;
   background-color: white;
   width: 100%;
   padding-top: 20px;
@@ -46,7 +45,7 @@ ion-anchor {
   font-weight: 500;
   color: rgb(117, 117, 117);
 }
-  
+
 ion-anchor:hover {
   border: 2px;
   border-color: #F00;

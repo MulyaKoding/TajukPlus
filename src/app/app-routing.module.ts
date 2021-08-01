@@ -4,11 +4,11 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./pencarian/pencarian.module').then( m => m.PencarianPageModule)
+    loadChildren: () => import('./ubah-profil/ubah-profil.module').then( m => m.UbahProfilPageModule)
   },
   {
     path: '',
-    redirectTo: 'pencarian',
+    redirectTo: 'ubah-profil',
     pathMatch: 'full'
   },
   {
@@ -34,10 +34,6 @@ const routes: Routes = [
   {
     path: 'register',
     loadChildren: () => import('./register/register.module').then( m => m.RegisterPageModule)
-  },
-  {
-    path: 'edit-profil',
-    loadChildren: () => import('./edit-profil/edit-profil.module').then( m => m.EditProfilPageModule)
   },
   {
     path: 'video',
@@ -114,6 +110,10 @@ const routes: Routes = [
   {
     path: 'services',
     loadChildren: () => import('./services/services.module').then( m => m.ServicesPageModule)
+  },
+  {
+    path: 'ubah-profil',
+    loadChildren: () => import('./ubah-profil/ubah-profil.module').then( m => m.UbahProfilPageModule)
   },
 ];
 

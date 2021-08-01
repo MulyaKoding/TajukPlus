@@ -1,17 +1,17 @@
-<ion-header class="ion-no-header">
-  <ion-toolbar class="header-section">
+<ion-header>
+  <ion-toolbar>
     <ion-buttons slot="start">
       <ion-button color="primary">
         <ion-icon slot="icon-only" name="chevron-back-outline"></ion-icon>
       </ion-button>
     </ion-buttons>
     <ion-buttons slot="start">
-      <ion-button class="navigation" href="/">Ubah Profil</ion-button>
+      <ion-button class="navigation" routerLink="/">Ubah Profil</ion-button>
     </ion-buttons>
   </ion-toolbar>
-</ion-header> 
+</ion-header>
 
-<ion-content padding fixed>
+<ion-content fullscreen>
   <div class="content-section">
      <form>
             <ion-label class="informasi-data-title">Informasi Data</ion-label>
@@ -30,15 +30,15 @@
           <ion-select-option value="nke">Nama Kecamatan</ion-select-option>
       </ion-select>
       <ion-button class="btn-ubh-profil" expand="block" (click)="registerAction()">Ubah Profil</ion-button>
-  
+
       <ion-label class="Ganti-Password-title">Ganti Password</ion-label>
       <div class="Ganti-Password-border"></div>
- 
-   
+
+
     <ion-input type="password" name="passwordlama" placeholder="Password Lama"></ion-input>
     <ion-input type="password" name="passwordbaru" placeholder="Password Baru"></ion-input>
     <ion-input type="password" name="confirmpass" placeholder="Konfirmasi Password"></ion-input>
-    <ion-button class="btn-ubh-pswd" expand="block" (click)="registerAction()">Ubah Password</ion-button>  
+    <ion-button class="btn-ubh-pswd" expand="block" (click)="registerAction()">Ubah Password</ion-button>
      </form>
   </div>
 </ion-content>
