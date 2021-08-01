@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { PengaturanPageRoutingModule } from './pengaturan-routing.module';
 
 import { PengaturanPage } from './pengaturan.page';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    PengaturanPageRoutingModule
+    PengaturanPageRoutingModule,
+    TranslateModule
   ],
   declarations: [PengaturanPage]
 })

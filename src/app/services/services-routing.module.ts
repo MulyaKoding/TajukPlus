@@ -7,6 +7,10 @@ const routes: Routes = [
   {
     path: '',
     component: ServicesPage
+  },
+  {
+    path: 'language',
+    loadChildren: () => import('./language/language.module').then( m => m.LanguagePageModule)
   }
 ];
 

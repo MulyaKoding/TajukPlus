@@ -18,7 +18,6 @@
     <div class="notifikasi-border"></div>
     <ion-item>
       <ion-label class="notifikasi-title">Notifikasi Berita Terbaru</ion-label>
-     
       <ion-toggle class="tag.btn" slot="end" name="Btu" color="white" checked></ion-toggle>
     </ion-item>
 
@@ -46,9 +45,9 @@
     <div class="umum-border"></div>
     <ion-item>
       <ion-label>Bahasa</ion-label>
-      <ion-select value="indonesia">
-        <ion-select-option value="indonesia">Indonesia</ion-select-option>
-        <ion-select-option value="english">English</ion-select-option>
+      <ion-select  [(ngModel)]="language" [value]="language" (ionChange)="changeLanguage()"  placeholder="indonesia">
+        <ion-select-option value="in">Indonesia</ion-select-option>
+        <ion-select-option value="en">English</ion-select-option>
       </ion-select>
     </ion-item>
 
