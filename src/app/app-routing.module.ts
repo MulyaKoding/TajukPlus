@@ -84,10 +84,6 @@ const routes: Routes = [
     loadChildren: () => import('./resolvers/resolvers.module').then( m => m.ResolversPageModule)
   },
   {
-    path: 'services',
-    loadChildren: () => import('./services/services.module').then( m => m.ServicesPageModule)
-  },
-  {
     path: 'providers',
     loadChildren: () => import('./providers/providers.module').then( m => m.ProvidersPageModule)
   },
@@ -103,10 +99,7 @@ const routes: Routes = [
     path: 'ubah-rekening',
     loadChildren: () => import('./ubah-rekening/ubah-rekening.module').then( m => m.UbahRekeningPageModule)
   },
-  {
-    path: 'services',
-    loadChildren: () => import('./services/services.module').then( m => m.ServicesPageModule)
-  },
+ 
   {
     path: 'ubah-profil',
     loadChildren: () => import('./ubah-profil/ubah-profil.module').then( m => m.UbahProfilPageModule)

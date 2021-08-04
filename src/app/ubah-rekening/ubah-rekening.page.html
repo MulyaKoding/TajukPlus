@@ -54,14 +54,33 @@
             <br><br>
           </ion-select>
           <br><br>
-          <ion-select placeholder="Pilih Kota" name="provinsi">
+          <ion-select  [(ngModel)]="kota" placeholder="Pilih Kota" name="provinsi">
+          
             <ion-select-option value="nko">Nama Kota</ion-select-option>
         </ion-select>
-        <ion-select placeholder="Pilih Kecamatan" name="provinsi">
+        <ion-select [(ngModel)]="kecamatan" placeholder="Pilih Kecamatan" name="provinsi">
           <ion-select-option value="nke">Nama Kecamatan</ion-select-option>
       </ion-select>
       <br><br>
       <ion-button class="btn-ubh-profil" expand="block" (click)="registerAction()">Ubah Profil</ion-button>
-     </form>
+      
+
+      <ion-list>
+        <ion-item *ngfor="kota">
+          <ion-label>
+            {{kota}}
+          </ion-label>
+        </ion-item>
+
+        <ion-item *ngfor="kota">
+          <ion-label>
+            {{kecamatan}}
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </form>  
+
   </div>
+
+
 </ion-content>
