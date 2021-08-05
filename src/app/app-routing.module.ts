@@ -108,22 +108,6 @@ const routes: Routes = [
     path: 'berita-disukai',
     loadChildren: () => import('./berita-disukai/berita-disukai.module').then( m => m.BeritaDisukaiPageModule)
   },
-  {
-    path: 'cities',
-    loadChildren: () => import('./service/cities/cities.module').then( m => m.CitiesPageModule)
-  },
-  {
-    path: 'cities',
-    loadChildren: () => import('./services/cities/cities.module').then( m => m.CitiesPageModule)
-  },
-  {
-    path: 'distircts',
-    loadChildren: () => import('./services/distircts/distircts.module').then( m => m.DistirctsPageModule)
-  },
-  {
-    path: 'database',
-    loadChildren: () => import('./services/database/database.module').then( m => m.DatabasePageModule)
-  },
 ];
 
 @NgModule({
