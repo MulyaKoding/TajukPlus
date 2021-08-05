@@ -108,6 +108,10 @@ const routes: Routes = [
     path: 'berita-disukai',
     loadChildren: () => import('./berita-disukai/berita-disukai.module').then( m => m.BeritaDisukaiPageModule)
   },
+  {
+    path: 'detail-news',
+    loadChildren: () => import('./detail-news/detail-news.module').then( m => m.DetailNewsPageModule)
+  },
 ];
 
 @NgModule({

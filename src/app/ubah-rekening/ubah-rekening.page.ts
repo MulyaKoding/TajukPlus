@@ -10,6 +10,8 @@ export class UbahRekeningPage implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+    
   }
 
 }
