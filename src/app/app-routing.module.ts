@@ -76,10 +76,6 @@ const routes: Routes = [
     loadChildren: () => import('./help/help.module').then( m => m.HelpPageModule)
   },
   {
-    path: 'config',
-    loadChildren: () => import('./config/config.module').then( m => m.ConfigPageModule)
-  },
-  {
     path: 'resolvers',
     loadChildren: () => import('./resolvers/resolvers.module').then( m => m.ResolversPageModule)
   },
