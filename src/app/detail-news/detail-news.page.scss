@@ -107,7 +107,7 @@ margin-left: 5%;
 .status-inside{
   position: absolute;
   width: 37%;
-  height: 5%;
+  height: 6%;
   right: 0;
   background: linear-gradient(#3DBDCF, #55BF30);
   color: white;
@@ -115,59 +115,58 @@ margin-left: 5%;
 
 .icon-heart-status{
   color: white;
-  top:0px; 
+  bottom:5px; 
   position: relative;
   z-index: 2;
-  margin-left: 48%;
-  padding-right:17%;
+  margin-left: 1px;
   
 }
 
 .icon-heart-chatbubbles{
   color: white;
-  top:0px; 
+  bottom:5px; 
   position: relative;
-  z-index: 3;
-  margin-left: 275%;
+  z-index: 2;
+  margin-left: 20px;
   padding-right: 50%;
 
 }
 
 .icon-heart-share{
   color: white;
-  top:0px; 
+  bottom:5px; 
   position: relative;
-  z-index: 3;
-  margin-left: 580%;
+  z-index: 2;
+  margin-left: 23px;
   padding-right: 60%;
- 
 }
 
 .text-like{
-  font-size: 11px;
+  font-size: 10px;
   position: absolute;
   z-index: 1;
-  top: 20px;
+  top: 25px;
+  margin-left: 2%;
   padding-right: 10%; 
 
 }
 
 .text-komentar{
-  font-size: 11px;
+  font-size: 10px;
   position: absolute;
   z-index: 1;
-  top: 20px;
-  margin-left: 15%;
+  top: 25px;
+  margin-left: 6%;
   padding-right: 25%;
   
 }
 
 .text-bagikan{
-  font-size: 11px;
+  font-size: 10px;
   position: absolute;
   z-index: 1;
-  top: 20px;
- margin-left: 43%;
+  top: 25px;
+ margin-left: 13%;
  padding-right: 50%;
 }
 
