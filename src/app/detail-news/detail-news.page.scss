@@ -275,12 +275,6 @@ margin-left: 5%;
   margin: 0px;
   object-fit: cover;
 }
-
-
-
-
-
-
 .title-news-informations{
   font-size: 10px;
   font-weight: bold;
@@ -329,4 +323,58 @@ margin-left: 5%;
   height: 3px;
   width: 12%;
 }
+
+.content-new-card{
+  color: black;
+  padding-top: 0%;
+  margin-left: 0%;
+  display: inline-flex;
+  margin-top: 0%;
+  margin-bottom: 0px;
+  box-shadow: none;
+  background-color: rgba(1,1,1,0);
+}
+
+.conetent-new-card > ion-card-content{
+  padding: 10px 10px 10px 0;
+}
+
+.content-news-information-img{
+  overflow: hidden;
+  margin: 4px 0px 0px 0px;
+}
+
+.content-img-news{
+  height: 115px;
+  width: 200px;
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+  margin:0px;
+  object-fit: cover;
+}
+
+.content-news-img-profil{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-left: 4%;
+  float: left;
+}
+
+.content-news-profil-image{
+  margin-left: 17%;
+  margin-top: 0%;
+  padding-top: 3px;
+  padding-bottom: 0%;
+  float: center;
+  font-size: 11px;
+}
+
+.content-news-content-time{
+  margin-top: 6%;
+  font-size: 12px;
+  margin-right: 35%;
+  
+}
+
 
