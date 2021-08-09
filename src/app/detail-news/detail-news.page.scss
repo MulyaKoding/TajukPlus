@@ -248,13 +248,13 @@ margin-left: 5%;
   --background: white;
   text-transform: capitalize;
   font-size: 12px;
-  min-width: 90px;
-  height: 75%;
+  min-width: 45%;
+  height: 50%;
   padding: 0 3px 0 0;
   --border-radius: 0px;
   --box-shadow: 0px 0px 8px -4px rgba(2, 3, 3, 0.7);
-  border: 2px solid #3DBDCF;
   margin-left: 0%;
+  width: 75%;
 }
 
 .new-card > ion-card-content{
@@ -277,20 +277,17 @@ margin-left: 5%;
 }
 
 
-.img-news{
-  
-}
+
+
+
 
 .title-news-informations{
   font-size: 10px;
   font-weight: bold;
   text-align: left;
-  margin-left: 13%;
+  margin-left: 22%;
 }
 
-.news-content-profile{
-
-}
 
 .news-img-profil{
   width: 25px;
