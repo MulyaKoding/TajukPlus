@@ -76,10 +76,6 @@ const routes: Routes = [
     loadChildren: () => import('./help/help.module').then( m => m.HelpPageModule)
   },
   {
-    path: 'resolvers',
-    loadChildren: () => import('./resolvers/resolvers.module').then( m => m.ResolversPageModule)
-  },
-  {
     path: 'providers',
     loadChildren: () => import('./providers/providers.module').then( m => m.ProvidersPageModule)
   },
@@ -107,10 +103,6 @@ const routes: Routes = [
   {
     path: 'detail-news',
     loadChildren: () => import('./detail-news/detail-news.module').then( m => m.DetailNewsPageModule)
-  },
-  {
-    path: 'configs',
-    loadChildren: () => import('./configs/configs.module').then( m => m.ConfigsPageModule)
   },
   {
     path: 'following-group',
