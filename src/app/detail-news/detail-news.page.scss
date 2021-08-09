@@ -28,7 +28,7 @@ ion-icon{
 
 ion-chip{
   margin-top: 2%;
-  margin-left:8%
+  margin-left:3%
 }
 .topic{
   background: linear-gradient(#3DBDCF, #55BF30);
@@ -37,7 +37,29 @@ ion-chip{
 
 .title-news{
   font-weight: bold;
-  text-align: center
-  ;
+  text-align: left;
+  margin-left: 4%;
 }
-  
+
+.img-profil{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-left: 4%;
+  float: left;
+}
+
+.profil-image{
+  margin-left: 12%;
+  margin-top: 0%;
+  padding-top: 3px;
+  padding-bottom: 0%;
+  float: center;
+  font-size: 11px;
+}
+
+.content-time{
+  font-size: 12px;
+  margin-left: 4%;
+}
+
