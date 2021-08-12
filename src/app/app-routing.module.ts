@@ -108,6 +108,10 @@ const routes: Routes = [
     path: 'following-group',
     loadChildren: () => import('./following-group/following-group.module').then( m => m.FollowingGroupPageModule)
   },
+  {
+    path: 'riwayat-lamaran',
+    loadChildren: () => import('./riwayat-lamaran/riwayat-lamaran.module').then( m => m.RiwayatLamaranPageModule)
+  },
 ];
 
 @NgModule({
