@@ -2,10 +2,6 @@ ion-icon{
   color: black;
 }
 
-.header-section {
-  padding-bottom: 2%;
-  z-index: 1;
-}
 ion-content{
   z-index: 10;
   position:absolute ;
@@ -13,7 +9,7 @@ ion-content{
 }
 
 .content-section {
-  margin-top:  17%;
+  margin-top: 3%;
   background-color: white;
   width: 100%;
   padding-top: 10px;
@@ -29,15 +25,16 @@ ion-content{
 
 
 .profil-card{
-  width: 92%;
+  width: 98%;
   margin-top: 2%;
   padding-top: 3%;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 15px;
 }
 
 ion-row{
-  margin-top: 3px;
+  margin-top: 1px;
   margin-left: auto;
 }
 
@@ -47,9 +44,9 @@ ion-row{
 }
 
 .image{
-  max-width: 55%;
-  margin-left: 37px;
-  padding-top: 12%;
+  min-width: 50.5%;
+  margin-left: 115px;
+  padding-top: 3%;
   padding-left:15%;
 }
 
@@ -91,35 +88,17 @@ ion-anchor {
   color: rgb(117, 117, 117);
 }
 
-ion-anchor:hover {
-  border: 2px;
-  border-color: #F00;
-  color: #fff679;
-}
-
-ion-input[type=number] {
-  margin-top: 25px;
-}
-
-ion-input {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 5px;
-  border-radius: 20px;
-  background-color: rgba(231, 231, 231, 0.5);
-  text-indent: 20px;
-  transition: all 400ms ease-out;
-}
 
 ion-select {
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 5px;
+  padding: 15px;
   border-radius: 20px;
   background-color: rgba(231, 231, 231, 0.5);
   text-indent: 20px;
   transition: all 400ms ease-out;
 }
+
 .informasi-data-border{
   margin-top: 2px;
   margin-left: 2%;
@@ -176,16 +155,14 @@ ion-input[type=number] {
 }
 
 ion-input {
+  width: 100%;
+  height: 50px;
+  padding: 20px;
   margin-bottom: 20px;
-  padding: 5px;
   border-radius: 20px;
   background-color: rgba(231, 231, 231, 0.5);
   text-indent: 20px;
   transition: all 400ms ease-out;
-}
-
-ion-input:hover {
-  box-shadow: 0px 0px 4px #3DBDCF, 0px 0px 4px #55BF30;
 }
 
 ion-anchor:hover {

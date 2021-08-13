@@ -1,17 +1,19 @@
-<ion-header>
-  <ion-toolbar class="header-section">
-    <ion-buttons slot="start">
-      <ion-button color="primary">
-        <ion-icon slot="icon-only" name="chevron-back-outline"></ion-icon>
-      </ion-button>
-    </ion-buttons>
-    <ion-buttons slot="start">
-      <ion-button class="navigation" href="/">Ubah Rekening</ion-button>
-    </ion-buttons>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+
+  <ion-header>
+    <ion-toolbar class="header-section">
+      <ion-buttons slot="start">
+        <ion-button color="primary">
+          <ion-icon slot="icon-only" name="chevron-back-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-buttons slot="start">
+        <ion-button class="navigation" href="/">Ubah Rekening</ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  
+
   <div class="content-section">
     
   <ion-card class="profil-card">
@@ -43,9 +45,9 @@
             <ion-label class="informasi-data-title">Data Bank</ion-label>
             <div class="informasi-data-border"></div>
             <br>
-          <ion-input type="text" name="namapemilikbank" placeholder="Nama Pemilik Bank"></ion-input>
+          <ion-input  type="text" name="namapemilikbank" placeholder="Nama Pemilik Bank"></ion-input>
           <ion-input type="text" name="rekeningbank" placeholder="No Rekening Bank"></ion-input>
-          <ion-select placeholder="Nama Bank" interface="popover">
+          <ion-select  class="input-user" [(ngModel)]="jenisbank" placeholder="Nama Bank" name="jenisbank" interface="action-sheet">
             <ion-select-option value="nes">BCA</ion-select-option>
             <ion-select-option value="n64">BNI</ion-select-option>
             <ion-select-option value="ps">Mandiri</ion-select-option>
@@ -55,10 +57,10 @@
             <br><br>
           </ion-select>
           <br><br>
-          <ion-select  [(ngModel)]="kota" placeholder="Pilih Kota" name="provinsi">
+          <ion-select  [(ngModel)]="kota" placeholder="Pilih Kota" name="kota">
             <ion-select-option value="nko">Nama Kota</ion-select-option>
         </ion-select>
-        <ion-select [(ngModel)]="kecamatan" placeholder="Pilih Kecamatan" name="provinsi">
+        <ion-select [(ngModel)]="kecamatan" placeholder="Pilih Kecamatan" name="kecamatan">
           <ion-select-option value="nke">Nama Kecamatan</ion-select-option>
       </ion-select>
       <br><br>
@@ -66,6 +68,13 @@
       
 
       <ion-list>
+        
+        <ion-item *ngfor="jenisbank">
+          <ion-label>
+            {{jenisbank}}
+          </ion-label>
+        </ion-item>
+        
         <ion-item *ngfor="kota">
           <ion-label>
             {{kota}}
@@ -77,9 +86,9 @@
             {{kecamatan}}
           </ion-label>
         </ion-item>
+      
       </ion-list>
     </form>  
-
   </div>
 
 
