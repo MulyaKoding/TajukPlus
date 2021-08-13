@@ -13,9 +13,11 @@ ion-icon {
 
 ion-toggle{
 
-  --handle-background: grey;
-  --handle-background-checked: #4db6ac;
-  --handle-box-shadow: 24px 24px 44px 44px #4db6ac;  
+  --handle-background-checked: #3DBDCF;
+  --handle-background: black;
+  
+  --handle-box-shadow: 10px 6px 40px 42px linear-gradient(white, #55BF30); 
+   
 }
 
 .notifikasi-border{

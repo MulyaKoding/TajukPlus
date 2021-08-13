@@ -4,11 +4,11 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./riwayat-lamaran/riwayat-lamaran.module').then( m => m.RiwayatLamaranPageModule)
+    loadChildren: () => import('./pengaturan/pengaturan.module').then( m => m.PengaturanPageModule)
   },
   {
     path: '',
-    redirectTo: 'riwayat-lamaran',
+    redirectTo: 'pengaturan',
     pathMatch: 'full'
   },
   {
