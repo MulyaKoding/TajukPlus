@@ -2,10 +2,6 @@ ion-icon{
   color: black;
 }
 
-.header-section {
-  padding-bottom: 30%;
-  z-index: 1;
-}
 
 ion-content{
   z-index: 10;
@@ -14,13 +10,20 @@ ion-content{
 
 
 .content-section {
-  margin-top: 12%;
+  margin-top: 1%;
   background-color: white;
-  width: 85%;
+  width: 100%;
   padding-top: 20px;
   padding-right: 15px;
   padding-left: 15px;
 }
+
+  
+.navigation {
+  --color: black;
+  text-transform: capitalize;
+}
+
 
 img {
   width: 150px;
@@ -29,44 +32,6 @@ img {
   margin-left: auto;
 }
 
-ion-anchor {
-  transition: all 500ms ease-in-out;
-  display: block;
-  text-align: center;
-  font-weight: 500;
-  color: rgb(117, 117, 117);
-}
-
-ion-anchor:hover {
-  border: 2px;
-  border-color: #F00;
-  color: #fff679;
-}
-
-ion-input[type=number] {
-  margin-top: 25px;
-}
-
-ion-input {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 5px;
-  border-radius: 20px;
-  background-color: rgba(231, 231, 231, 0.5);
-  text-indent: 20px;
-  transition: all 400ms ease-out;
-}
-
-
-ion-select {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 5px;
-  border-radius: 20px;
-  background-color: rgba(231, 231, 231, 0.5);
-  text-indent: 20px;
-  transition: all 400ms ease-out;
-}
 .informasi-data-border{
   margin-top: 2px;
   margin-left: 2%;
@@ -99,8 +64,8 @@ ion-select {
   --background: linear-gradient(to bottom left, #3DBDCF, #55BF30);
   margin-top: 20px;
   margin-bottom: 30px;
-  width: 93%;
-  margin-left: 3%;
+  width: 85%;
+  margin-left: 7%;
   --border-radius: 45px 45px 45px 45px;
 }
 
@@ -108,19 +73,33 @@ ion-select {
   --background: linear-gradient(to bottom left, #3DBDCF, #55BF30);
   margin-top: 20px;
   margin-bottom: 30px;
-  width: 93%;
-  margin-left: 3%;
+  width: 85%;
+  margin-left: 7%;
   --border-radius: 45px 45px 45px 45px;
 }
 
-ion-select{
-  margin-bottom: 20px;
-  padding: 5px;
+
+ion-anchor {
+  transition: all 500ms ease-in-out;
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  color: rgb(117, 117, 117);
+}
+
+
+ion-select {
+  width: 97%;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  padding: 15px;
   border-radius: 20px;
   background-color: rgba(231, 231, 231, 0.5);
   text-indent: 20px;
   transition: all 400ms ease-out;
 }
+
+
 
 ion-select:hover{
   box-shadow: 0px 0px 4px #3DBDCF, 0px 0px 4px #55BF30;
@@ -131,16 +110,14 @@ ion-input[type=number] {
 }
 
 ion-input {
+  width: 97%;
+  height: 50px;
+  padding: 20px;
   margin-bottom: 20px;
-  padding: 5px;
   border-radius: 20px;
   background-color: rgba(231, 231, 231, 0.5);
   text-indent: 20px;
   transition: all 400ms ease-out;
-}
-
-ion-input:hover {
-  box-shadow: 0px 0px 4px #3DBDCF, 0px 0px 4px #55BF30;
 }
 
 ion-anchor:hover {
@@ -148,7 +125,6 @@ ion-anchor:hover {
   border-color: #F00;
   color: #fff679;
 }
-
 
 ion-anchor {
   transition: all 500ms ease-in-out;
