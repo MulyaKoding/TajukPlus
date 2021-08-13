@@ -8,11 +8,6 @@ ion-icon{
     --background: rgba(1, 1, 1, 0);
   }
   
-  .header-section{
-    padding-bottom: 2%;
-    z-index: 10;
-  }
-  
   .navigation {
     --color: black;
     text-transform: capitalize;
@@ -25,7 +20,7 @@ ion-icon{
   }
   
   .conten-section{
-    margin-bottom: 58%;
+    margin-bottom: 28%;
     background-color: white;
     width: 100%;
     padding-top: 20%;
@@ -39,16 +34,16 @@ ion-icon{
   text-transform: capitalize;
 }
 
-
 .profil-card{
-  width: 92%;
-  margin-top: 16%;
+  width: 95.5%;
+  margin-top: 3%;
   padding-top: 3%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.profil-card1{
+
+.profil-card-1{
     width: 92%;
     margin-top: 3%;
     padding-top: 3%;
@@ -56,13 +51,31 @@ ion-icon{
     margin-right: auto;
   }
 
-  .profil-card2{
+.profil-card-2{
     width: 92%;
     margin-top: 3%;
     padding-top: 3%;
     margin-left: auto;
     margin-right: auto;
   }
+
+  .profil-card-3{
+    width: 92%;
+    margin-top: 3%;
+    padding-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .profil-card-4{
+    width: 92%;
+    margin-top: 3%;
+    padding-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 
 
 ion-row {
@@ -125,6 +138,6 @@ ion-anchor {
   ion-anchor:hover {
     border: 2px;
     border-color: #F00;
-    color: #fff679;
+    color: #be79ff;
   }
   
