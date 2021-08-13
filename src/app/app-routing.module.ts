@@ -4,11 +4,11 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./following-group/following-group.module').then( m => m.FollowingGroupPageModule)
+    loadChildren: () => import('./pengaturan/pengaturan.module').then( m => m.PengaturanPageModule)
   },
   {
     path: '',
-    redirectTo: 'following=group',
+    redirectTo: 'pengaturan',
     pathMatch: 'full'
   },
   {
