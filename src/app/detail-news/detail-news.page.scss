@@ -1,14 +1,19 @@
 ion-icon{
     color: black;
   }
-  
+ion-header{
+  height: 6%;
+}
   ion-content{
     z-index: 1;
     position: absolute;
     --background: rgba(1, 1, 1, 0);
   }
 
- 
+ .content-section{
+   height: 100%;
+   width: 100%;
+ }
   
   .navigation {
     --color: black;
@@ -17,6 +22,8 @@ ion-icon{
   
 .data-img-bckgrnd{
   margin-top: 20px;
+  margin-left: 0%;
+  margin-right: 0%;
   height: 150px;
   width: 400px;
   border-radius: 20px 20px 20px 20px; 
@@ -289,7 +296,9 @@ margin-left: 3%;
 }
 
 .news-profil-image{
-  margin-right: 40%;
+  margin-right: 0%;
+  margin-left: 0%;
+  padding-right: 42%;
   margin-top: 0%;
   padding-top: 3px;
   padding-bottom: 0%;
@@ -299,7 +308,9 @@ margin-left: 3%;
 
 .news-content-time{
   font-size: 12px;
-  margin-right: 39%;
+  margin-right: 0%;
+  margin-left: 0%;
+  padding-right: 46%;
 }
 
 .content-information-news{
