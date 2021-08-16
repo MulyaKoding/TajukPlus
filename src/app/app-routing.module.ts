@@ -112,6 +112,10 @@ const routes: Routes = [
     path: 'riwayat-lamaran',
     loadChildren: () => import('./riwayat-lamaran/riwayat-lamaran.module').then( m => m.RiwayatLamaranPageModule)
   },
+  {
+    path: 'syarat-ketentuan',
+    loadChildren: () => import('./syarat-ketentuan/syarat-ketentuan.module').then( m => m.SyaratKetentuanPageModule)
+  },
 ];
 
 @NgModule({
