@@ -2,7 +2,7 @@ ion-icon{
     color: black;
   }
 ion-header{
-  height: 6%;
+  height: 7%;
 }
   ion-content{
     z-index: 1;
@@ -24,7 +24,7 @@ ion-header{
   margin-top: 20px;
   margin-left: 0%;
   margin-right: 0%;
-  height: 150px;
+  height: 170px;
   width: 400px;
   border-radius: 20px 20px 20px 20px; 
 }
@@ -342,12 +342,13 @@ margin-left: 3%;
 
 .content-new-card{
   color: black;
-  padding-top: 0%;
+  padding-top: 2%;
+  margin-right: 0%;
   margin-left: 0%;
   display: inline-flex;
   margin-top: 0%;
   margin-bottom: 0px;
-  box-shadow: none;
+  box-shadow: none; 
   background-color: rgba(1,1,1,0);
 }
 
@@ -357,15 +358,17 @@ margin-left: 3%;
 
 .content-news-information-img{
   overflow: hidden;
-  margin: 4px 0px 0px 0px;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 
 .content-img-news{
   height: 115px;
-  width: 200px;
+  width: 180px;
   border-radius: 20px;
-  padding: 10px 10px 10px 10px;
-  margin:0px;
+  padding: 12px 12px 12px 12px;
+  margin-left: 0%;
+  margin-right: 0%;
   object-fit: cover;
 }
 
@@ -374,6 +377,7 @@ margin-left: 3%;
   height: 25px;
   border-radius: 50%;
   margin-left: 0%;
+  margin-right: 0%;
   float: left;
 }
 
@@ -391,6 +395,11 @@ margin-left: 3%;
   font-size: 12px;
   margin-right: 35%;
   
+}
+
+.content-title-news{
+  margin-left: 0%;
+  margin-right: 0%;
 }
 
 
