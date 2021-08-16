@@ -6,17 +6,70 @@
   </ion-header>
 
   <ion-segment scrollable class="tag-division">
-  
-    <ion-button tab="1" class="tag-btn-division">Software Engineering</ion-button>
-    <ion-button tab="1" class="tag-btn-division">Design</ion-button>
-    <ion-button tab="1" class="tag-btn-division">Operations</ion-button>
-    <ion-button tab="1" class="tag-btn-division">Administrative</ion-button>
-    <ion-button tab="1" class="tag-btn-division">Education</ion-button>
-    <ion-button tab="1" class="tag-btn-division">Management</ion-button>
-    <ion-button tab="1" class="tag-btn-division">Hospitality and travel</ion-button>
-    <ion-button tab="1" class="tag-btn-division">Development / Sales</ion-button>
-    <ion-button tab="1" class="tag-btn-division">Other</ion-button>
-  
-  </ion-segment>
+    <ion-button tab="1" class="tag-btn-division">Semua</ion-button>
+    <ion-button tab="2" class="tag-btn-division">Software Engineering</ion-button>
+    <ion-button tab="3" class="tag-btn-division">Design</ion-button>
+    <ion-button tab="4" class="tag-btn-division">Operations</ion-button>
+    <ion-button tab="5" class="tag-btn-division">Administrative</ion-button>
+    <ion-button tab="6" class="tag-btn-division">Education</ion-button>
+    <ion-button tab="7" class="tag-btn-division">Management</ion-button>
+    <ion-button tab="8" class="tag-btn-division">Hospitality and travel</ion-button>
+    <ion-button tab="9" class="tag-btn-division">Development / Sales</ion-button>
+    <ion-button tab="10" class="tag-btn-division">Other</ion-button>
+  </ion-segment><br>
 
+    <ion-card class="profil-card">
+      <ion-grid>
+        <ion-row>
+          <ion-col class="recruitment-user">
+            
+            <ion-row>
+              <ion-label class="name-user"> Andy Setiawan</ion-label>
+            </ion-row>
+
+            <ion-chip class="category"> 
+              <ion-label>Design</ion-label>
+            </ion-chip>
+
+            <ion-row>
+              <ion-label class="location-user">Jakarta Utara, Indonesia</ion-label>
+            </ion-row>
+
+            <ion-row>
+              <ion-label class="desc-user">Rp. 8.000.000.</ion-label>
+            </ion-row>
+
+            <ion-row>
+              <ion-label class="date-user">17 Agustus 2021</ion-label>
+            </ion-row>
+
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card>
+
+  <ion-tabs>
+    <ion-tab-bar>
+      <ion-tab-button tab="riwayat-lamaran">
+        <ion-icon name="home"></ion-icon>
+        <ion-label class="label-tab-bar">Beranda</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="video">
+        <ion-icon name="videocam"></ion-icon>
+        <ion-label class="label-tab-bar">Video</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="recruitment">
+        <ion-icon name="duplicate-outline"></ion-icon>
+        <ion-label class="label-tab-bar">Recruitment</ion-label>
+      </ion-tab-button> 
+      <ion-tab-button tab="chat">
+        <ion-icon name="chatbubbles"></ion-icon>
+        <ion-label class="label-tab-bar">Chat</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="profil">
+        <ion-icon name="man-outline"></ion-icon>
+        <ion-label class="label-tab-bar">Profil</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
 </ion-content>
