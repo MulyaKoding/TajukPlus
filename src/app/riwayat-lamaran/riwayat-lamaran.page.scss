@@ -22,11 +22,18 @@
 
 }
 
-.tag-btn-division{
+.tag-btn-division-all{
  --background: linear-gradient(to bottom left, #3DBDCF, #55BF30);
  text-transform: capitalize;
  --border-radius: 45px 45px 45px 45px;
 }
+
+.tag-btn-division-general{
+    --background:none;
+    color: black;
+    text-transform: capitalize;
+    --border-radius: 45px 45px 45px 45px;
+   }
 
 ion-tabs {
     height: fit-content;
@@ -48,6 +55,8 @@ ion-tab-bar {
 }
 
 .profil-card{
+    margin-top: 0%;
+    margin-bottom: 4%;
     border-radius: 18px 18px 18px 18px;
     width: 90%;
     margin-left: 5%;
