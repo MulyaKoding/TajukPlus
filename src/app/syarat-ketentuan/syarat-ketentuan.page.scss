@@ -1,0 +1,30 @@
+ion-icon{
+    color: black;
+  }
+  
+  ion-content{
+    z-index: 1;
+    position: absolute;
+    --background: rgba(1, 1, 1, 0);
+  }
+  
+  .navigation {
+    --color: black;
+    text-transform: capitalize;
+  }
+  
+  ion-content{
+    z-index: 10;
+    position: absolute;
+    --background: rgba(1,1,1,0);
+  }
+
+  
+.content-section {
+    --background: linear-gradient(to bottom left, #3DBDCF, #55BF30);
+    width: 100%;
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 50px 50px 0px 0px;
+  }
