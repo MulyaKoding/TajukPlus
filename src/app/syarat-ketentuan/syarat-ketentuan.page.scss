@@ -21,7 +21,7 @@ ion-icon{
   padding-bottom: 20%;
   padding-top: 0%;
   z-index: 1; 
-  border-radius: 0px 0px 40px 40px;
+  border-radius: 0px 0px 30px 30px;
 }
 
 .content-section-toolbar{
@@ -39,6 +39,28 @@ ion-icon{
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+}
+
+.text-main{
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 14px;
+}
+
+.card-title{
+  font-size: 16px;
+  margin-left: 0%;
+  margin-right: 0%;
+  text-align: left;
+  font-weight: bold;
+}
+
+.card.subtitle{
+  font-size: 14px;
+  margin-left: 0%;
+  margin-right: 0%;
+  text-align: left;
 }
 
 .img-dashboard{
