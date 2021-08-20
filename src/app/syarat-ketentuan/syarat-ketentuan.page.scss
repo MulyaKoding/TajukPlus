@@ -92,33 +92,87 @@ ion-icon{
   width: 100%; 
 }
 
+.btn-akun{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; 
+}
 
+.btn-akun-1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; 
+}
+
+.btn-akun-2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; 
+}
 
 .icon-privasi{
+  padding-left: auto;
+  padding-left: auto;
+  margin-left: auto;
+  margin-right: auto;
   color: lightslategrey;
-  margin-left: 0%;
-  margin-right: 0%;
-  padding-right: 9%;
  float: left;
 }
 
 .icon-privasi-1{
-  color: lightslategrey;
-  margin-left: 0%;
-  margin-right: 0%;
-  padding-right: 9%;
+  padding-left: auto;
+  padding-left: auto;
+  margin-left: auto;
+  margin-right: auto;
+ color: lightslategrey;
  float: left;
 }
 
 .icon-privasi-2{
-  padding-right: 11%;
+  padding-left: auto;
+  padding-left: auto;
+  margin-left: auto;
+  margin-right: auto;
   color: lightslategrey;
-  margin-left: 0%;
-  margin-right: 0%;
   float: left;
 }
 
+.icon-akun{
+  padding-left: auto;
+  padding-left: auto;
+  margin-left: auto;
+  margin-right: auto;
+  color: lightslategrey;
+  float: left;
+}
+
+
+.icon-akun-1{
+  color: lightslategrey;
+  padding-left: auto;
+  padding-left: auto;
+  margin-left: auto;
+  margin-right: auto;
+ float: left;
+}
+
+.icon-akun-2{
+  color: lightslategrey;
+  padding-left: auto;
+  padding-left: auto;
+  margin-left: auto;
+  margin-right: auto;
+ float: left;
+}
+
 .text-btn{
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-right: 12%;
+  padding-left: 0%;
   color: black;
   float: right;
   text-transform: capitalize;
@@ -126,6 +180,10 @@ ion-icon{
 }
 
 .text-btn-1{
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-right: 12%;
+  padding-left: 0%;
   color: black;
   float: right;
   text-transform: capitalize;
@@ -133,6 +191,43 @@ ion-icon{
 }
 
 .text-btn-2{
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-right: 14%;
+  padding-left: 0%;
+  float: right;
+  color: black;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+
+.text-btn-akun{
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-right: 29%;
+  padding-left: 0%;
+  float: right;
+  color: black;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+
+.text-btn-akun-1{
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-right: 35%;
+  padding-left: 0%;
+  float: right;
+  color: black;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+
+.text-btn-akun-2{
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-right: 29%;
+  padding-left: 0%;
   float: right;
   color: black;
   text-transform: capitalize;
