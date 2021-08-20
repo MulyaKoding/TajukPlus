@@ -76,6 +76,24 @@ ion-icon{
   width: 100%; 
 }
 
+.btn-privasi-1{
+  padding-top: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; 
+}
+
+.btn-privasi-2{
+  padding-top: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; 
+}
+
+
+
 .icon-privasi{
   color: lightslategrey;
   margin-left: 0%;
@@ -84,9 +102,41 @@ ion-icon{
  float: left;
 }
 
+.icon-privasi-1{
+  color: lightslategrey;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-right: 9%;
+ float: left;
+}
+
+.icon-privasi-2{
+  padding-right: 10%;
+  color: lightslategrey;
+  margin-left: 0%;
+  margin-right: 0%;
+  float: left;
+}
+
 .text-btn{
   color: black;
   float: right;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+
+.text-btn-1{
+  color: black;
+  float: right;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+
+.text-btn-2{
+  float: right;
+  color: black;
+  text-transform: capitalize;
+  font-size: 12px;
 }
 
 .img-keamananakun{
