@@ -4,11 +4,11 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./kebijakan-privasi/kebijakan-privasi.module').then( m => m.KebijakanPrivasiPageModule)
+    loadChildren: () => import('./ubah-rekening/ubah-rekening.module').then( m => m.UbahRekeningPageModule)
   },
   {
     path: '',
-    redirectTo: 'kebijakan-privasi',
+    redirectTo: 'ubah-rekening',
     pathMatch: 'full'
   },
   {
@@ -64,20 +64,12 @@ const routes: Routes = [
     loadChildren: () => import('./pages/profil/profil.module').then( m => m.ProfilPageModule)
   },
   {
-    path: 'qr-code',
-    loadChildren: () => import('./qr-code/qr-code.module').then( m => m.QrCodePageModule)
-  },
-  {
     path: 'profil-other',
     loadChildren: () => import('./profil-other/profil-other.module').then( m => m.ProfilOtherPageModule)
   },
   {
     path: 'help',
     loadChildren: () => import('./help/help.module').then( m => m.HelpPageModule)
-  },
-  {
-    path: 'providers',
-    loadChildren: () => import('./providers/providers.module').then( m => m.ProvidersPageModule)
   },
   {
     path: 'pencarian',

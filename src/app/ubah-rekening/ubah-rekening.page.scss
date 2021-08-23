@@ -1,5 +1,6 @@
 ion-icon{
   color: black;
+  width: 100%;
 }
 
 ion-content{
@@ -9,10 +10,10 @@ ion-content{
 }
 
 .content-section {
-  margin-top: 3%;
+  margin-top: 1%;
   background-color: white;
   width: 100%;
-  padding-top: 10px;
+  padding-top: 5%;
   padding-right: 15px;
   padding-left: 15px;
 
@@ -21,8 +22,8 @@ ion-content{
 .navigation {
   --color: black;
   text-transform: capitalize;
+  font-size: 20px;
 }
-
 
 .profil-card{
   width: 98%;
@@ -43,13 +44,22 @@ ion-row{
   overflow-x: hidden;
 }
 
-.image{
-  min-width: 50.5%;
-  margin-left: 0%;
-  margin-right: 0%;
-  padding-top: 3%;
-  padding-left:40%;
+
+.image-money{
+  transform: rotate(340deg);
+  color: #3DBDCF;
+  opacity: 0.2;
+  right: 0;
+  bottom: 0;
+  margin-right: -67px;
+  margin-bottom: -6px;
+  margin-top: -10px;
+  width: 220px;
+  height: 100px;
+  position: absolute;
 }
+
+
 
 .bank-anda{
   font-weight: 600;
@@ -73,7 +83,6 @@ ion-row{
 .name-user{
   font-size: 12px;
 }
-
 
 img {
   height: 100px;
@@ -130,23 +139,14 @@ ion-select {
   font-weight: 700;
 }
 
-.btn-ubh-pswd{
-  --background: linear-gradient(to bottom left, #3DBDCF, #55BF30);
-  margin-top: 20px;
-  margin-bottom: 30px;
-  width: 93%;
-  margin-left: 3%;
-  --border-radius: 45px 45px 45px 45px;
-  
-}
-
 .btn-ubh-profil{
   --background: linear-gradient(to bottom left, #3DBDCF, #55BF30);
-  margin-top: 20px;
-  margin-bottom: 30px;
-  width: 93%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  width: 90%;
   margin-left: 3%;
   --border-radius: 45px 45px 45px 45px;
+  text-transform: capitalize;
 }
 
 
@@ -183,9 +183,11 @@ ion-anchor {
   font-weight: 500;
   color: rgb(117, 117, 117);
 }
+
 h4{
   font-weight: bold;
 }
+
 .nama_bank{
     margin-left: 10%;
 

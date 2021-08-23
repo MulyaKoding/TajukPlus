@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
-
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
-
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
-//plugins 
-import { SQLite } from '@ionic-native/sqlite/ngx';
-import { HttpClientModule } from '@angular/common/http';
-import { SQLitePorter } from '@ionic-native/sqlite-porter/ngx';
+//library font-awesome
+import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
 
 @NgModule({
   declarations: [AppComponent],
@@ -27,11 +27,10 @@ import { SQLitePorter } from '@ionic-native/sqlite-porter/ngx';
     BrowserModule, 
     IonicModule.forRoot(), 
     AppRoutingModule,
-    HttpClientModule
+    FontAwesomeModule
   ],
   providers: [
-    SQLite,
-    SQLitePorter,
+ 
     {
       provide: RouteReuseStrategy,
       useClass: IonicRouteStrategy
@@ -39,5 +38,10 @@ import { SQLitePorter } from '@ionic-native/sqlite-porter/ngx';
   ],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+
+  constructor(library: FaIconLibrary) { 
+		library.addIconPacks(fas, fab, far);
+	}
+}
 
