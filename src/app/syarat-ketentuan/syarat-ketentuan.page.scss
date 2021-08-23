@@ -1,5 +1,6 @@
 ion-icon{
     color: white;
+    width: 100%;
   }
   
   ion-content{
@@ -11,21 +12,22 @@ ion-icon{
   .navigation {
     --color: white;
     text-transform: capitalize;
-    margin-left: 50%;
+    margin-left: 0%;
     margin-right: 0%;
+    font-size: 20px;
   }
   
 
 .header-section {
   --background: linear-gradient(to bottom left, #3DBDCF, #55BF30);
-  padding-bottom: 20%;
+  padding-bottom: 40%;
   padding-top: 0%;
   z-index: 1; 
-  border-radius: 0px 0px 30px 30px;
+  border-radius: 0px 0px 10px 10px;
 }
 
 .content-section-toolbar{
-  margin-top: 20%;
+  margin-top: 35%;
   background-color: white;
   width: 100%;
   padding-right: 10px;
@@ -34,10 +36,11 @@ ion-icon{
 }
 
 .img-logo{
+  padding-top: 5%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 50%;
 }
 
 .text-main{
